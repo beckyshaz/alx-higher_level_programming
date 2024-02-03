@@ -5,4 +5,3 @@ def no_c(my_string):
         if s.lower() != 'c':
             no_cs = no_cs + s
     return no_cs
-
