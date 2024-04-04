@@ -6,10 +6,11 @@ square"""
 class Square:
     """Defines a square with class
     square"""
+
     def __init__(self, size=0):
-        """ initialize a private variable
-        Args:
-            size(int):The size of the square
+        """ initialize a private
+        variable.
+        Args:size(int):The size of the square
            """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
