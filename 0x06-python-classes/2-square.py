@@ -1,5 +1,11 @@
 #!/usr/python3
+"""Defines a
+square"""
+
+
 class Square:
+    """Defines a square with class
+    square"""
     def __init__(self, size=0):
         """ Instatation of a private variable
         Args:
