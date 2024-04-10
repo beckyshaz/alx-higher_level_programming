@@ -9,8 +9,8 @@ class Rectangle:
         """
             Initializing attributes of instances
             Args:
-                width: width of the rectangle
-                height: height of the rectangle
+                width (int): width of the rectangle
+                height (int): height of the rectangle
         """
         self.__width = width
         self.__height = height
@@ -27,7 +27,7 @@ class Rectangle:
         """
             Defining a seeter to set or change values of attributes
             Args:
-                value: Values of width and height
+                value (int): Values of width and height
         """
         if not isinstance(self.__width, int):
             raise TypeError("width must be an integer")
@@ -48,7 +48,7 @@ class Rectangle:
         """
             Defining a seeter to set or change values of attributes
             Args:
-                value: Values of width and height
+                value (int): Values of width and height
         """
         if not isinstance(self.__height, int):
             raise TypeError("height must be an integer")
