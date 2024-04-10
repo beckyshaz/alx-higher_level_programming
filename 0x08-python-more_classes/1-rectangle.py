@@ -19,16 +19,12 @@ class Rectangle:
     def width(self):
         """
             Defining a getter to retrive values of attributes
+            and a setter to set it
         """
         return self.__width
 
     @width.setter
     def width(self, value):
-        """
-            Defining a seeter to set or change values of attributes
-            Args:
-                value (int): Values of width and height
-        """
         if not isinstance(self.__width, int):
             raise TypeError("width must be an integer")
         elif self.__width < 0:
@@ -40,16 +36,12 @@ class Rectangle:
     def height(self):
         """
             Defining a getter to retrive values of attributes
+            and a setter to set it
         """
         return self.__height
 
     @height.setter
     def height(self, value):
-        """
-            Defining a seeter to set or change values of attributes
-            Args:
-                value (int): Values of width and height
-        """
         if not isinstance(self.__height, int):
             raise TypeError("height must be an integer")
         elif self.__height < 0:
