@@ -3,7 +3,6 @@
 of a class"""
 
 
-
 def lookup(obj):
     """"Defining a function that returns alist of
     attributes and methods of a class using dir"""
