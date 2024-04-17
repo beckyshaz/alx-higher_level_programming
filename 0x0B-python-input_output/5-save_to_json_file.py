@@ -13,5 +13,6 @@ def save_to_json_file(my_obj, filename):
         my_obj: object of any data type hierachy that
                 is to be saved
         filename: file to save the dat"""
+
     with open(filename, "w") as f:
-        return json.dump(x, f)
+        return json.dump(my_obj, f)
