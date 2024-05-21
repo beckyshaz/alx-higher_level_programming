@@ -1,0 +1,23 @@
+>>>from 0-add_integer.py import add_integer
+>>>add_integer(1, 2)
+3
+>>>add_integer(2)
+100
+>>>add_integer(100.2, -2)
+100
+>>>add_integer("school", "c is fun")
+Traceback (most recent call last):
+TypeError: here is the error
+
+>>>add_integer(4, "School")
+Traceback (most recent call last):
+TypeError: here is the error
+
+>>>add_integer(None)
+Traceback (most recent call last):
+TypeError: here is the error
+
+>>>add_integer( )
+Traceback (most recent call last):
+TypeError: here is the error
+

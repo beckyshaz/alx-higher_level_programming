@@ -1,0 +1,52 @@
+=============================
+Doctest for 0-add_integer.py
+=============================
+
+It has one function ``add_integer()``
+
+Numbers
+==========
+
+``add_integer()`` returns the addition of its arguments 
+the ``+`` operator is used to achieve this
+
+::
+
+	>>> from 0-add_integer.py import add_integer
+	>>> add_integer(1, 2)
+	3
+
+	>>> add_integer(2)
+	100
+
+works with floating points
+
+::
+	>>> add_integer(100.2, -2)
+	98
+
+Non-Numbers
+=============
+
+``+`` does not work with non numbers
+
+::
+
+
+	>>> add_integer("school", "c is fun")
+	Traceback (most recent call last):
+	TypeError: here is the error
+
+
+	>>> add_integer(4, "School")
+	Traceback (most recent call last):
+	TypeError: here is the error
+
+
+	>>> add_integer(None)
+	Traceback (most recent call last):
+	TypeError: here is the error
+
+	>>> add_integer( )
+	Traceback (most recent call last):
+	TypeError: here is the error
