@@ -1,4 +1,6 @@
 #!/usr/bin/node
 
-/* eslint-disable no-unused-vars */
+/* Defining an empty class called rectangle */
 class Rectangle {}
+
+module.exports = Rectangle;
