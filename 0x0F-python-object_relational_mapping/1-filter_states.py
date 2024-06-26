@@ -23,13 +23,10 @@ if __name__ == "__main__":
                 )
         cur = db.cursor()
         cur.execute("""
-        SELECT DISTINCT name
-        FROM (
-            SELECT name
-            FROM states
-            WHERE name Like 'N%'
-            ORDER BY  id ASC
-            )AS subquery
+        SELECT *
+        FROM states
+        WHERE name Like BINARY 'N%'
+        ORDER BY states.id ASC
         """)
         rows = cur.fetchall()
         for row in rows:
