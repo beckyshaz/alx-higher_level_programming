@@ -1,3 +1,3 @@
 #!/bin/bash
 # metohods allowed by the server
-curl -s -I "$"  | grep "Allow" | cut -d " " -f 2-
+curl -s -I "1$" | grep "Allow" | cut -d " " -f 2-
